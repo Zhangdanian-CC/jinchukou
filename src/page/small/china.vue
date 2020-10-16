@@ -9,13 +9,13 @@
     <!-- <world-chart class="world-chart" /> -->
     <div class="side-div left-side">
       <div class="left-one">
-        <div class="content-title-frame">贷款实时分析</div>
+        <div class="content-title-frame">贷款实时数据</div>
         <div class="content-frame">
           <left-indicator class="left-indicator" />
         </div>
       </div>
       <div class="left-two">
-        <div class="content-title-frame">资产规模分析</div>
+        <div class="content-title-frame">机构排名</div>
         <div class="content-frame">
           <column-box class="column-box" ids="left2" :chartData="[]" />
           <column-indicator class="column-indicator" :chartData="[]" />
@@ -64,7 +64,7 @@
               </div> -->
             </div>
           </div>
-          <right-one-chart class="column-line" ids="right1" :chartData="[]" />
+          <!-- <right-one-chart class="column-line" ids="right1" :chartData="[]" /> -->
         </div>
       </div>
       <!-- <div class="right-two">
@@ -77,18 +77,18 @@
         <div class="content-title-frame">资产质量</div>
         <div class="content-frame">
           <right-three-indicator class="right-ind" />
-          <right-line class="right-line" ids="right3Line" :chartData="[]" />
-          <right-color-line
+          <!-- <right-line class="right-line" ids="right3Line" :chartData="[]" /> -->
+          <!-- <right-color-line
             class="right-color-line"
             ids="right3ColorLine"
             :chartData="[]"
-          />
+          /> -->
         </div>
       </div>
     </div>
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">特色业务</div>
+        <div class="swiper-slide">结构分析</div>
         <div class="swiper-slide">中小微</div>
         <div class="swiper-slide">民营企业</div>
         <div class="swiper-slide">制造升级</div>
@@ -274,13 +274,13 @@ export default {
     color: #22ecfd;
     line-height: 2vw;
     text-align: center;
-    z-index: 11;
+    // z-index: 11;
   }
   // 特色业务
   .paris {
     position: absolute;
-    left: 66vw;
-    top: 22vw;
+    left: 36vw;
+    top: 32.6vw;
     width: 6.5vw;
     height: 7vw;
     background: url("../../assets/images/jinchukou/paris.png") no-repeat;
@@ -288,8 +288,8 @@ export default {
   }
   .bottom-left-ind {
     position: absolute;
-    left: 65vw;
-    top: 30vw;
+    left: 35vw;
+    top: 40vw;
     .ind-name {
       display: inline-block;
       margin-right: 1vw;
@@ -357,7 +357,7 @@ export default {
         background: url("../../assets/images/jinchukou/bj-@1x.png") no-repeat;
         background-size: 100% 100%;
         width: 100%;
-        height: 9.45vw;
+        height: 13vw;
         .left-indicator {
           height: 100%;
           width: 100%;
@@ -368,7 +368,7 @@ export default {
     .left-two {
       position: absolute;
       left: 0;
-      top: 13vw;
+      top: 16vw;
       height: 19.58vw;
       width: 100%;
       .content-frame {
@@ -391,9 +391,10 @@ export default {
     .left-three {
       position: absolute;
       left: 0;
-      top: 33vw;
-      height: 19.58vw;
+      top: 36vw;
+      height: 16.35vw;
       width: 100%;
+      background-color: #fff;
       .content-frame {
         background: url("../../assets/images/jinchukou/framebg2.png") no-repeat;
         background-size: 100% 100%;
@@ -417,6 +418,7 @@ export default {
     background-size: 100% 100%;
     padding: 0.83vw 0.75vw;
     z-index: 10;
+    background-color: #fff;
     .bottom-title {
       background: url("../../assets/images/jinchukou/title3@1x.png") no-repeat;
       background-size: 100% 100%;

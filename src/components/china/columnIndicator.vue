@@ -9,6 +9,8 @@
       <div class="indicator-content">
         <!-- <span class="hb">同比</span>
         <span class="sz">{{item.value1}}</span> -->
+        <!-- <span class="dangqian">当前余额</span>
+        <span class="zhi">{{ item.value3 }}亿</span> -->
         <span class="hb-1">比年初</span>
         <i class="shangsheng"></i>
         <span class="sz-1">{{ item.value2 }} 亿</span>
@@ -31,6 +33,7 @@ export default {
           name: "表内资产余额",
           value1: "24.3%",
           value2: "2458.08",
+          value3: "2458.08",
         },
         {
           name: "表外资产余额",
@@ -124,6 +127,27 @@ export default {
     //   font-size: 1.041vw;
     //   transform: scale(0.8);
     // }
+    // .dangqian {
+    //   display: inline-block;
+    //   position: absolute;
+    //   left: 0.5vw;
+    //   width: 3.625vw;
+    //   top: 0.55vw;
+    //   font-size: 1.041vw;
+    //   transform: scale(0.7);
+    //   color: rgba(255, 255, 255, 0.6);
+    // }
+    // .zhi {
+    //   display: inline-block;
+    //   position: absolute;
+    //   left: 4.3vw;
+    //   width: 5.5vw;
+    //   top: 0.5vw;
+    //   font-size: 1.041vw;
+    //   transform: scale(0.8);
+    //   color: #ff3f2b;
+    //   font-weight: bold;
+    // }
     .hb-1 {
       display: inline-block;
       position: absolute;
@@ -152,7 +176,7 @@ export default {
       top: 0.5vw;
       font-size: 1.041vw;
       transform: scale(0.8);
-      color:#ff3f2b;
+      color: #ff3f2b;
       font-weight: bold;
     }
     .hb-img {

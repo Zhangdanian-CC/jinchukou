@@ -7,7 +7,7 @@
       <div class="right-time"></div>
     </div>
     <world-chart />
-    <!-- <left-indicator class="left-indicator" /> -->
+    <left-indicator class="left-indicator" />
   </div>
 </template>
 

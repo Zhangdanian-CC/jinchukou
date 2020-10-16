@@ -241,6 +241,7 @@ export default {
     position: absolute;
     margin-left: 0.833vw;
     margin-top: 0.833vw;
+    background-color: #fff;
     .title1 {
       width: 30.104vw;
       height: 2.0833vw;
@@ -357,6 +358,7 @@ export default {
     position: absolute;
     margin-left: 32.1875vw;
     margin-top: 0.833vw;
+    background-color: #fff;
     .title3 {
       width: 35.625vw;
       height: 2.0833vw;
@@ -437,6 +439,7 @@ export default {
     position: absolute;
     margin-left: 69.0625vw;
     margin-top: 0.833vw;
+    background-color: #fff;
     .title5 {
       width: 30.104vw;
       height: 2.0833vw;

@@ -110,7 +110,7 @@ export default {
     position: absolute;
     left: 0.833vw;
     top: 4.83vw;
-    // background-color: pink;
+    background-color: #fff;
     .title {
       width: 48.07vw;
       height: 2.083vw;
@@ -193,7 +193,7 @@ export default {
     position: absolute;
     right: 0.833vw;
     top: 4.83vw;
-    // background-color: pink;
+    background-color: #fff;
     .title2 {
       width: 48.07vw;
       height: 2.083vw;

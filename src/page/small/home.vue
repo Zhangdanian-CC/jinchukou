@@ -35,30 +35,34 @@ export default {
     return {
       controlData: [
         {
-          name: "世界地图",
+          // name: "世界地图",
+          name: "全球业务",
           img: I1,
           top: true,
           path: "/world"
         },
         {
-          name: "中国地图",
+          // name: "中国地图",
+          name: "经营视图",
           img: I2,
           top: true,
           path: "/china"
         },
         {
-          name: "特色业务分析",
+          // name: "特色业务分析",
+          name: "结构分析",
           img: I7,
           top: true,
           path: "/tese"
         },
         {
-          name: "资产规模",
+          // name: "资产规模",
+          name: "负债概貌",
           img: I4,
           path: "/guimo"
         },
         {
-          name: "资产效益",
+          name: "财务状况",
           img: I5,
           path: "/xiaoyi"
         },
@@ -67,11 +71,11 @@ export default {
           img: I6,
           path: "/zhiliang"
         },
-        {
-          name: "视频监控",
-          img: I3,
-          path: "/monitor"
-        }
+        // {
+        //   name: "视频监控",
+        //   img: I3,
+        //   path: "/monitor"
+        // }
       ]
     };
   },

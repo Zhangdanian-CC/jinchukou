@@ -28,16 +28,22 @@ export default {
       Icon5: icon5,
       Icon1: icon1,
       data: [
-        {
-          name: "贷款签约",
+         {
+          name: "当前贷款余额",
           value: "3812.82",
           key: "dai1",
+          num: "235"
+        },
+        {
+          name: "当年累计发放额",
+          value: "3812.82",
+          key: "lei1",
           num: "234"
         },
         {
-          name: "贷款发放",
+          name: "当年新增额",
           value: "3052.12",
-          key: "lei1",
+          key: "xinzeng1",
           num: "124"
         }
       ]

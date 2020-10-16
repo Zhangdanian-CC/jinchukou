@@ -229,4 +229,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.column-box{
+  background-color: #fff;
+}
 </style>

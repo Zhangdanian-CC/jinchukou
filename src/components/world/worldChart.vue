@@ -27,17 +27,17 @@ export default {
         visualMap: {
           type: "piecewise",
           left: "4%",
-          top: "75%",
+          top: "35%",
           show: true,
           roam: true,
           min: 0,
           max: 15,
           pieces: [
             { gt: 200, label: "> 200亿" }, // (1500, Infinity]
-            { gt: 120, lte: 200, label: "120 ～ 200亿" }, // (900, 1500]
-            { gt: 80, lte: 120, label: "80 ～ 120亿" }, // (310, 1000]
-            { gt: 40, lte: 80, label: "40 ～ 80亿" }, // (200, 300]
-            { gt: 0, lte: 40, label: "10 ～ 40亿" }, // (10, 200]
+            { gt: 100, lte: 200, label: "100 ～ 200亿" }, // (900, 1500]
+            { gt: 50, lte: 100, label: "50 ～ 100亿" }, // (310, 1000]
+            { gt: 0, lte: 50, label: "0 ～ 50亿" }, // (200, 300]
+            { gt: 0, lte: 0.001, label: "0" }, // (10, 200]
           ],
           inRange: {
             // color: [

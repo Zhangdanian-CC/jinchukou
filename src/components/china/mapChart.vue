@@ -156,7 +156,7 @@ export default {
           calculable: true,
           seriesIndex: [1],
           pieces: [
-            { gt: 0, lte: 40, label: "10 ～ 40亿" }, // (10, 200]
+            { gt: 0, lte: 40, label: "0 ～ 40亿" }, // (10, 200]
             { gt: 40, lte: 80, label: "40 ～ 80亿" }, // (200, 300]
             { gt: 80, lte: 120, label: "80 ～ 120亿" }, // (310, 1000]
             { gt: 120, lte: 200, label: "120 ～ 200亿" }, // (900, 1500]
